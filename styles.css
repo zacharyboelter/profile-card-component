@@ -1,0 +1,30 @@
+body {
+    height: 100vh;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(185, 75%, 39%);
+    background-image: 
+        url(./images/bg-pattern-bottom.svg),
+        url(./images/bg-pattern-top.svg);
+        
+    background-position: 
+        top 400px left 700px,
+        bottom 500px right 700px;
+    background-repeat: no-repeat;
+
+}
+
+.card {
+    border: 1px solid black;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
