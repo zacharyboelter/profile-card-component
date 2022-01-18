@@ -35,7 +35,7 @@ body {
     border-radius: 15px;
     background-color: white;
     width: 326px;
-    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    box-shadow: 10px 10px 15px -7px #228e92, 5px 5px 15px 5px rgba(22, 2, 2, 0);
 }
 
 /* top half of card */
@@ -66,13 +66,13 @@ body {
 
 .hero-title span {
     font-weight: 400;
-    color: hsl(228, 13%, 62%);
+    color: hsl(0, 0%, 59%);
     margin-left: 5px;
 
 }
 .hero-location {
     font-weight: 400;
-    color: hsl(228, 13%, 62%);
+    color: hsl(0, 0%, 59%);
     padding-bottom: 15px;
     font-size: 14px;
 }
@@ -95,11 +95,12 @@ body {
 
 .stat-num {
     font-weight: 700;
+    margin-bottom: 5px;
 }
 
 .stat-text {
     font-weight: 400;
-    color: hsl(228, 13%, 62%);
+    color: hsl(0, 0%, 59%);
     font-size: 10px;
 }
 
@@ -109,6 +110,6 @@ body {
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: hsl(0, 0%, 100%); 
 }
 
